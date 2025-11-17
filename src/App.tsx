@@ -20,12 +20,16 @@ const queryClient = new QueryClient({
   },
 });
 
+// Определяем basename для GitHub Pages
+// Используем import.meta.env.BASE_URL, который автоматически устанавливается Vite
+const basename = import.meta.env.BASE_URL || '/';
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
         <MainLayout>
           <Routes>
             <Route path="/" element={<Dashboard />} />
