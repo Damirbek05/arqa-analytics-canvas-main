@@ -139,6 +139,96 @@ export const mockCustomers: Customer[] = [
     ltv: 98000,
     ordersCount: 7,
     createdAt: '2023-09-18'
+  },
+  {
+    id: 'CUST-006',
+    name: 'Елена Волкова',
+    email: 'elena.volkova@example.com',
+    city: 'Караганда',
+    ltv: 123000,
+    ordersCount: 10,
+    createdAt: '2023-05-12'
+  },
+  {
+    id: 'CUST-007',
+    name: 'Иван Смирнов',
+    email: 'ivan.smirnov@example.com',
+    city: 'Алматы',
+    ltv: 178000,
+    ordersCount: 18,
+    createdAt: '2023-02-20'
+  },
+  {
+    id: 'CUST-008',
+    name: 'Ольга Новикова',
+    email: 'olga.novikova@example.com',
+    city: 'Астана',
+    ltv: 112000,
+    ordersCount: 9,
+    createdAt: '2023-07-08'
+  },
+  {
+    id: 'CUST-009',
+    name: 'Павел Лебедев',
+    email: 'pavel.lebedev@example.com',
+    city: 'Шымкент',
+    ltv: 87000,
+    ordersCount: 6,
+    createdAt: '2023-10-25'
+  },
+  {
+    id: 'CUST-010',
+    name: 'Татьяна Соколова',
+    email: 'tatiana.sokolova@example.com',
+    city: 'Алматы',
+    ltv: 134000,
+    ordersCount: 11,
+    createdAt: '2023-04-14'
+  },
+  {
+    id: 'CUST-011',
+    name: 'Андрей Попов',
+    email: 'andrey.popov@example.com',
+    city: 'Актобе',
+    ltv: 95000,
+    ordersCount: 8,
+    createdAt: '2023-08-30'
+  },
+  {
+    id: 'CUST-012',
+    name: 'Наталья Федорова',
+    email: 'natalya.fedorova@example.com',
+    city: 'Алматы',
+    ltv: 167000,
+    ordersCount: 14,
+    createdAt: '2023-01-18'
+  },
+  {
+    id: 'CUST-013',
+    name: 'Михаил Морозов',
+    email: 'mikhail.morozov@example.com',
+    city: 'Астана',
+    ltv: 102000,
+    ordersCount: 9,
+    createdAt: '2023-09-05'
+  },
+  {
+    id: 'CUST-014',
+    name: 'Юлия Петрова',
+    email: 'yulia.petrova@example.com',
+    city: 'Караганда',
+    ltv: 78000,
+    ordersCount: 6,
+    createdAt: '2023-11-22'
+  },
+  {
+    id: 'CUST-015',
+    name: 'Денис Козлов',
+    email: 'denis.kozlov@example.com',
+    city: 'Алматы',
+    ltv: 189000,
+    ordersCount: 20,
+    createdAt: '2022-12-10'
   }
 ];
 
