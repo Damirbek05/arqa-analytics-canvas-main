@@ -24,6 +24,12 @@ const queryClient = new QueryClient({
 // Используем import.meta.env.BASE_URL, который автоматически устанавливается Vite
 const basename = import.meta.env.BASE_URL || '/';
 
+// Отладочная информация
+if (import.meta.env.DEV) {
+  console.log("App basename:", basename);
+  console.log("BASE_URL:", import.meta.env.BASE_URL);
+}
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
